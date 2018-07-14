@@ -1,0 +1,123 @@
+body {
+
+	font-family: 'Lato', sans-serif;
+	color: #fffff;
+	font-weight: 300;
+  display: flex;
+	flex-wrap: wrap;
+}
+/*---header---*/
+@media (max-width: 600px) {
+
+	 header {
+
+		 background-color: #eef8fb;
+
+ }
+}
+.text-muted {
+
+color: #BCBBBB;
+
+}
+.text-thin {
+
+font-weight: 100;
+
+}
+.title-super {
+
+font-size: 60px;
+
+}
+.title-logo {
+
+margin-top: 20px;
+width: 15%;
+-webkit-animation-duration: 1.5s;
+/*-webkit-animation-delay: 1s;*/
+-webkit-animation-iteration-count: 1;
+
+}
+
+/*---article---*/
+.article-box{
+
+margin-top: 50px;
+
+}
+.text-image {
+
+margin-top: 90px;
+
+}
+.work-frame {
+
+box-shadow: 0px 5px 15px -1px rgba(0,0,0,0.22);
+width: 100%;
+
+}
+.img-responsive {
+
+cursor: pointer;
+-webkit-animation-duration: 1.5s;
+/*-webkit-animation-delay: 1s;*/
+-webkit-animation-iteration-count: 1;
+
+}
+
+/*---about-me---*/
+.about-me {
+
+background-color: #5BC0DE;
+margin-top: 100px;
+margin-bottom: 100px;
+color: #fff;
+padding: 10%;
+
+}
+@media (max-width: 300px) {
+
+		.about-me {
+
+			height: 600px;
+   }
+}
+.about-text {
+
+width: 100%;
+text-align: center;
+}
+@media (max-width: 600px) {
+
+		.about-text {
+
+			width: 100%;
+
+
+
+  }
+}
+/*---footer---*/
+.footer-portfolio {
+
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+.web-page-author {
+
+margin-bottom: 50px;
+
+}
+.footer-logo {
+
+width: 3%;
+
+}
+footer {
+
+margin-top: 100px;
+background-color: #eef8fb;
+
+}
